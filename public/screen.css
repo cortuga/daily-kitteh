@@ -3,10 +3,107 @@
 }
 
 html {
-  height: 100%;
+  height: 1080px;
 }
 
 body {
+  background-color: slategrey;
   margin: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.daily-kitteh-h1-title {
+  border-color: red;
+  padding: 1rem;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav bar start */
+.nav-section {
+  background-color: lightgreen;
+  padding: 1px;
+  justify-content: space-around;
+}
+
+.ul-nav {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+/* Nav bar end */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+
+/* Side-bar Caption/image Area */
+.side-caption-box {
+  max-width: 25%;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+
+.side-cat-figure {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+
+.cat-image {
+  width: 10rem;
+  display: flex;
+  justify-content: column;
+  align-content: flex-start;
+}
+/* Side-bar Caption/image Area */
+
+.busy-kittehs {
+  /* margin-top: 0rem;
+  margin-bottom: 0rem; */
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-content {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* .busy-kittehs {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.text-article {
+  margin: 0rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: yellow;
+  list-style: none;
+  text-decoration-line: underline;
+}
+
+* {
+  border: 5px dotted pink;
 }
